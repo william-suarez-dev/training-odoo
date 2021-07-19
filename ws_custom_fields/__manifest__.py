@@ -13,13 +13,14 @@
     """,
 
     'depends': [
-        'base','stock','mrp',
+        'base','stock','mrp','sale',
     ],
     'data': [
         'security/ir.model.access.csv',
 
         'views/stock_scrap_reason_view.xml',
         'views/stock_scrap_view.xml',
+        'views/res_partner_view.xml',
     ],
     'installable': True,
 }
